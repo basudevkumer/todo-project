@@ -1,0 +1,24 @@
+.cross-main-one {
+  position: relative;
+}
+.cross-one {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  color: rgb(251, 20, 20);
+  transform: translateY(7%);
+  font-size: 20px;
+  display: none;
+}
+.cross-main-two {
+  position: relative;
+}
+.cross-two {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  color: rgb(251, 20, 20);
+  transform: translateY(12%);
+    font-size: 20px;
+    display: none;
+}

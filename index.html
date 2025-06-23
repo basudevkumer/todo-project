@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Todo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mb-3 cross-main-one">
+        <label for="exampleFormControlInput1" class="form-label">Name : </label>
+        <input
+          type="text"
+          class="form-control nameInput"
+          id="exampleFormControlInput1"
+          placeholder=""
+        />
+
+        <span class="cross-one"><i class="fa-solid fa-xmark"></i> </span>
+      </div>
+      <div class="mb-3 cross-main-two">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Caption :</label
+        >
+        <textarea
+          class="form-control captionInput"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+
+        <span class="cross-two"><i class="fa-solid fa-xmark"></i> </span>
+      </div>
+      <button type="button" class="btn btn-info postbtn">Post</button>
+
+      <div class="mainPost py-5 d-flex flex-wrap gap-4"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
